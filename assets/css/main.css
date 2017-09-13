@@ -2031,6 +2031,11 @@
 
 /* List */
 
+  .contact-icons li {
+		list-style: none;
+		margin-bottom: 10px;
+	}
+
 	ol {
 		list-style: decimal;
 		margin: 0 0 2.25em 0;
@@ -2044,11 +2049,11 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 2.25em 0;
-		padding-left: 1em;
+		/*padding-left: 1em;*/
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			/*padding-left: 0.5em;*/
 		}
 
 		ul.alt {
